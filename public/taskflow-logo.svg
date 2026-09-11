@@ -6,10 +6,18 @@
       <stop stop-color="#4f46e5"/>
       <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
+    <style>
+      .wordmark { fill: #0f172a; }
+      .tagline { fill: #64748b; }
+      @media (prefers-color-scheme: dark) {
+        .wordmark { fill: #f8fafc; }
+        .tagline { fill: #94a3b8; }
+      }
+    </style>
   </defs>
   <rect x="4" y="4" width="88" height="88" rx="24" fill="url(#g)"/>
   <path d="M23 65h13V53h13V41h11" fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="m55 57 8 8 14-20" fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="116" y="58" fill="#0f172a" font-family="Manrope, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-1.5">TaskFlow</text>
-  <text x="118" y="78" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.8">PLAN CLEARLY. FINISH CONFIDENTLY.</text>
+  <text x="116" y="58" class="wordmark" font-family="Manrope, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-1.5">TaskFlow</text>
+  <text x="118" y="78" class="tagline" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.8">PLAN CLEARLY. FINISH CONFIDENTLY.</text>
 </svg>

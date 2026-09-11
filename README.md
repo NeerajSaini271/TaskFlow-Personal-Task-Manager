@@ -13,8 +13,6 @@ TaskFlow is a browser-based personal task manager built with React, Vite, and Ta
 > [!NOTE]
 > TaskFlow does not use accounts, a backend, or cloud synchronization. Clearing browser storage removes saved tasks.
 
-## Preview
-
 <table>
   <tr>
     <td width="50%" valign="top">
