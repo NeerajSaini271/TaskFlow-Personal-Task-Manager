@@ -6,6 +6,10 @@
   A responsive, local-first personal task manager for organizing priorities, due dates, notes, and everyday progress.
 </p>
 
+<p align="center">
+  <a href="https://taskflow-personal-task-manager.vercel.app"><strong>Live Demo</strong></a>
+</p>
+
 ## Overview
 
 TaskFlow is a browser-based personal task manager built with React, Vite, and Tailwind CSS. Tasks stay in the browser through localStorage and synchronize across open tabs on the same origin.
@@ -121,7 +125,7 @@ TaskFlow is prepared for deployment on Vercel using the Vite framework preset:
 - **Root directory:** `./`
 - **Environment variables:** None required
 
-The production URL will be added after the first successful deployment.
+**Live application:** [Open TaskFlow](https://taskflow-personal-task-manager.vercel.app)
 
 ## License
 

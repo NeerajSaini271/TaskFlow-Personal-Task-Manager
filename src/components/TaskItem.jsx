@@ -74,7 +74,7 @@ export default function TaskItem({ task, onToggle, onEdit, onDelete }) {
         </button>
 
         <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-start justify-between gap-3">
+          <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3">
             <div className="min-w-0">
               <h3
                 className={`break-words text-lg font-black ${
@@ -92,7 +92,7 @@ export default function TaskItem({ task, onToggle, onEdit, onDelete }) {
               )}
             </div>
             <span
-              className={`rounded-full px-3 py-1 text-xs font-black capitalize ${priorityStyle[task.priority]}`}
+              className={`shrink-0 self-start rounded-full px-3 py-1 text-xs font-black capitalize ${priorityStyle[task.priority]}`}
             >
               {task.priority}
             </span>
