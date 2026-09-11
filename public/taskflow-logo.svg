@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-labelledby="title desc">
+  <title id="title">TaskFlow</title>
+  <desc id="desc">TaskFlow logo with three ascending steps flowing into a check mark.</desc>
+  <defs>
+    <linearGradient id="g" x1="8" y1="88" x2="88" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="24" fill="url(#g)"/>
+  <path d="M23 65h13V53h13V41h11" fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m55 57 8 8 14-20" fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="116" y="58" fill="#0f172a" font-family="Manrope, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-1.5">TaskFlow</text>
+  <text x="118" y="78" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.8">PLAN CLEARLY. FINISH CONFIDENTLY.</text>
+</svg>
